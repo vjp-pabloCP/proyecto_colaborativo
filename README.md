@@ -40,12 +40,19 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
     [Comandos utilizados]
 
     -git clone
+
     -git checkout -b
+
     -git branch
+
     -git add .
+
     -git status
+
     -git commit -m 
+
     -git commit --amend -m
+
     -git push -u origin 
 
     {Problemas encontrados}
