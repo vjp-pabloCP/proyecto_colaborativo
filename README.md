@@ -31,12 +31,14 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
 
 ## 👥 Colaboradores
 - Raquel González Carranza 
+
     He creado la rama “rama.Html” y en ella he modificado el index ya creado 
     con anterioridad y le he añadido texto e imágenes al body,
     haciendo así un archivo html funcional. 
     Después he hecho un pull request para fusionar mi rama al proyecto. 
 
     [Comandos utilizados]
+
     -git clone
     -git checkout -b
     -git branch
@@ -47,6 +49,7 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
     -git push -u origin 
 
     {Problemas encontrados}
+
     Como las ramas fueron creadas desde el principio, tuve que crearme 
     una nueva rama llamada “rama.Html” para poder trabajar en ella 
     y después eliminar la otra rama “html” existente.
