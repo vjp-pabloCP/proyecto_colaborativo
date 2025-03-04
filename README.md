@@ -12,11 +12,20 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
 ```
 /proyecto_colaborativo
 │── index.html    # Archivo principal de la web
+│── .gitignore    # Configuración de archivos a excluir en Git
+│── README.md     # Documentación del proyecto
 │── /css
 │   ├── style.css  # Archivo de estilos
 │── /js
 │   ├── script.js  # Archivo de interactividad
 │── /img  # Carpeta para imágenes
+│   ├── favicon.ico  # Ícono de la web
+│   ├── imagen1.jpg
+│   ├── imagen2.jpg
+│   ├── imagen3.jpg
+│   ├── imagen4.jpg
+│   ├── imagen5.jpg
+│   ├── imagen6.jpg
 ```
 
 ## 🚀 Tecnologías Utilizadas
@@ -30,7 +39,7 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
 - [✅] Una carpeta javascript que incluya un archivo mijava.js. 
 
 ## 👥 Colaboradores
-- Raquel González Carranza 
+- **Raquel González Carranza** 
 
     He creado la rama “rama.Html” y en ella he modificado el index ya creado 
     con anterioridad y le he añadido texto e imágenes al body,
@@ -61,7 +70,36 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
     una nueva rama llamada “rama.Html” para poder trabajar en ella 
     y después eliminar la otra rama “html” existente.
     
-- **[Nombre 2]**
+- **Pablo Carrasco Paredero**
+
+    He modificado los archivos CSS y JavaScript para darle estilo e interactividad
+    al proyecto. Cada parte del proyecto fue desarrollada en su rama específica para
+    no generar conflictos.
+    Posteriormente se han realizado los pull request necesarios y se ha fusionado el
+    el contenido modificado de cada rama a la rama principal.
+
+    [Comandos utilizados]
+
+    -git pull origin master
+
+    -git checkout
+
+    -git merge
+
+    -git add .
+
+    -git status
+
+    -git commit -m 
+
+    -git push -u origin
+
+    {Problemas encontrados}
+
+    He cambiado las imágenes generadas con Lorem Picsum por otras descargadas de internet
+    por motivo de la resolución, ya que las funciones implementadas en JavaScript requerian
+    de imágenes de mayor definición.
+      
 - **[Nombre 3]**
 
 ---
