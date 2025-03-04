@@ -1,22 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: #161613;
+    color: #eee;
+    font: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    display: flex;
+}
+
+section {
+    border-top: 4px solid #3d3d33;
+    padding: 1.4em 0 1em 0;
+    overflow: auto;
+    width: 100%;
+}
+
+.caption {
+    font-size: 0.9em;
+    padding-top: 0.2em;
+}
+
+/* IMAGENES */
+.imagen {
+    padding: 3px 3px 8px 3px;
+    background-color: #222;
+    border: 1px solid #2a2a2a;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.imagen img {
+    width: 120px;
+    height: 100px;
+}
+
+/* PARRAFOS */
+p {
+    line-height: 1.4em;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+}
+
+p.lead {
+    font-size: 1em;
+}
+
+/* LISTAS */
+ol, ul {
+    margin: 0.5em 0 1.2em 2em;
+    line-height: 1.4em;
+}
+
+li {
+    margin-bottom: 0.2em;
+    font-size: 0.9em;
+}
+
+li strong {
+    color: #999;
+}
+
+small {
+    font-size: 0.8em;
+}
+
+/* ENCABEZADOS */
+h1, h2, h3 {
+    font-family: "Trebuchet MS", Verdana, Sans-Serif;
 }
 
 h1 {
-    color: #333;
+    font-size: 2.3em;
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
+h1 a {
+    color: #fff;
     border: none;
-    border-radius: 5px;
 }
 
-button:hover {
-    background-color: #0056b3;
+h1 em {
+    font-size: 1.25em;
+    color: #d0eb6a;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.4pt;
+    color: #d0eb6a;
+    text-transform: uppercase;
+    padding-top: 0.5em;
+}
+
+h3 {
+    font-size: 1em;
+    letter-spacing: 0.2pt;
+    color: #d0eb6a;
+    text-transform: uppercase;
+    padding-top: 0.5em;
+}
+
+/* ENLACES */
+a, .contact-link {
+    color: #8ad459;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a img {
+    border: none;
+}
+
+/* BORDE SUPERIOR */
+#bordersuperior {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background-color: #d0eb6a;
+    z-index: 10;
+}
+
+/* PARTE IZQUIERDA */
+#parteIzquierda {
+    position: fixed;
+    left: -360px;
+    top: -50px;
+    width: 230px;
+    border: 5px double #999999;
+    border-radius: 10px;
+    background-color: #d0eb6a;
+    /*transform: rotate(45deg) translate(-350px, 160px);*/
+    transform: rotate(45deg);
+    transition: all 0.2s linear;
+}
+
+#parteIzquierda:hover {
+    /*transform: none;*/
+    transform: rotate(0deg);
+    left: 0;
+    top: 35px;
+    background-color: initial;
+    border: none;
+    margin-left: 10px;
+}
+
+#parteIzquierda a {
+    color: #fff;
+}
+
+#parteIzquierda h1 a {
+    font-weight: bold;
+}
+
+#parteIzquierda:hover~#contenido {
+    margin-left: 300px;
+}
+
+/* RESUMEN */
+#parteIzquierda .resumen {
+    border: 1px solid #222;
+    padding: 0.25em 0.5em;
+}
+
+#parteIzquierda .resumen a {
+    color: #8ad459;
+}
+
+#parteIzquierda .resumen ul {
+    margin-top: -0.45em;
+    margin-left: 1em;
+    margin-bottom: 0.4em;
+}
+
+/* NAV */
+#nav {
+    list-style: none;
+    margin: 1.5em 0 1em 0;
+}
+
+#nav li {
+    padding: 0;
+    margin: 0;
+}
+
+#nav a {
+    display: block;
+    height: 2em;
+    padding: 0.3em 0.2em 0 0.8em;
+    margin-bottom: 1px;
+    color: #eee;
+    background-color: #363633;
+}
+
+#nav a:hover {
+    color: #1a1a1a;
+    background-color: #d0eb6a;
+}
+
+/* CONTENIDO */
+#contenido {
+    margin: 45px 5em 310px;
+    width: 600px;
+    background: #161613;
+    position: relative;
+    z-index: 1;
+}
+
+#contenido ul {
+    margin-left: 4px;
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+#contenido ul.download li {
+    padding: 0.3em 0;
+    background-image: none;
+    list-style-type: none;
+}
+
+.first {
+    border-top: none;
+    padding-top: 0;
+}
+
+/* USO */
+pre code {
+    padding: 0;
+    margin: 0;
+}
+
+pre {
+    display: block;
+    margin: 1em 0;
+    padding: 0.5em;
+    border-left: 6px solid #0d0d09;
+    background-color: #000;
+    overflow: auto;
+}
+
+code {
+    font-size: 11px;
+    font-family: Verdana, Sans-Serif;
+    background-color: #000;
+    color: #8d8d73;
+    padding: 0.3em 0.4em;
+}
+
+/* DESCARGAR */
+.download {
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 0.7em 1.5em;
+}
+
+.download:hover {
+    background-color: #555;
+    border: 1px solid #777;
+    cursor: pointer;
+}
+
+.download li strong {
+    font-family: "Trebuchet MS", Verdana, Sans-Serif;
+    font-size: 2.25em;
+    color: #fff;
+}
+
+.download li em {
+    font-style: normal;
+    color: #d0eb6a;
 }
