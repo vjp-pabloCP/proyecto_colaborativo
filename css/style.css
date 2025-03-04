@@ -35,6 +35,7 @@ section {
 .imagen img {
     width: 120px;
     height: 100px;
+    cursor: pointer;
 }
 
 /* PARRAFOS */
