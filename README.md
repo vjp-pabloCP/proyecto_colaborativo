@@ -34,9 +34,11 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
 - JavaScript
 
 ## 🎯 Objetivos
-- [✅] Un archivo index.html en la raíz del repositorio.  
-- [✅] Una carpeta css que incluya un archivo estilos.css. 
-- [✅] Una carpeta javascript que incluya un archivo mijava.js. 
+- [✅] Fomentar el trabajo colaborativo en entornos de desarrollo.
+- [✅] Utilizar comandos básicos y avanzados para el control de versiones. 
+- [✅] Buenas prácticas de la gestión en ramas.
+- [✅] Gestionar correctamente pull requests e issues.
+- [✅] Visualizar el proyecto con GitHub Pages.
 
 ## 👥 Colaboradores
 - **Raquel González Carranza** 
@@ -69,7 +71,6 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
     Como las ramas fueron creadas desde el principio, tuve que crearme 
     una nueva rama llamada “rama.Html” para poder trabajar en ella 
     y después eliminar la otra rama “html” existente.
-
     
 - **Pablo Carrasco Paredero**
 
@@ -77,7 +78,7 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
     al proyecto. Cada parte del proyecto fue desarrollada en su rama específica para
     no generar conflictos.
     Posteriormente se han realizado los pull request necesarios y se ha fusionado el
-    el contenido modificado de cada rama a la rama principal.
+    contenido modificado de cada rama a la rama principal.
 
     [Comandos utilizados]
 
@@ -98,9 +99,8 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
     {Problemas encontrados}
 
     He cambiado las imágenes generadas con Lorem Picsum por otras descargadas de internet
-    por motivo de la resolución, ya que las funciones implementadas en JavaScript requerian
+    por motivo de la resolución, ya que las funciones implementadas en JavaScript requerían
     de imágenes de mayor definición.
-
       
 - **David Alexander Janampa**
 
