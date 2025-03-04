@@ -69,6 +69,7 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
     Como las ramas fueron creadas desde el principio, tuve que crearme 
     una nueva rama llamada “rama.Html” para poder trabajar en ella 
     y después eliminar la otra rama “html” existente.
+
     
 - **Pablo Carrasco Paredero**
 
@@ -99,8 +100,9 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
     He cambiado las imágenes generadas con Lorem Picsum por otras descargadas de internet
     por motivo de la resolución, ya que las funciones implementadas en JavaScript requerian
     de imágenes de mayor definición.
+
       
-- **[Nombre 3]**
+- **David Alexander Janampa**
 
 ---
 💡 *¡Gracias por visitar nuestro proyecto!*
