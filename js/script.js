@@ -14,3 +14,6 @@ function mostrarImagen(id) {
 function cerrarVisor() {
     document.getElementById("imageViewer").style.display = "none";
 }
+window.onload = function () {
+    document.getElementById('loader').style.display = 'none'; 
+};
