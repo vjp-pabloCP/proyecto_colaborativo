@@ -22,7 +22,6 @@ section {
     padding-top: 0.2em;
 }
 
-/* IMAGENES */
 .imagen {
     padding: 3px 3px 8px 3px;
     background-color: #222;
@@ -38,7 +37,6 @@ section {
     cursor: pointer;
 }
 
-/* PARRAFOS */
 p {
     line-height: 1.4em;
     margin-bottom: 1em;
@@ -49,7 +47,6 @@ p.lead {
     font-size: 1em;
 }
 
-/* LISTAS */
 ol, ul {
     margin: 0.5em 0 1.2em 2em;
     line-height: 1.4em;
@@ -68,7 +65,6 @@ small {
     font-size: 0.8em;
 }
 
-/* ENCABEZADOS */
 h1, h2, h3 {
     font-family: "Trebuchet MS", Verdana, Sans-Serif;
 }
@@ -104,7 +100,6 @@ h3 {
     padding-top: 0.5em;
 }
 
-/* ENLACES */
 a, .contact-link {
     color: #8ad459;
     text-decoration: none;
@@ -115,7 +110,6 @@ a img {
     border: none;
 }
 
-/* BORDE SUPERIOR */
 #bordersuperior {
     position: fixed;
     top: 0;
@@ -126,7 +120,6 @@ a img {
     z-index: 10;
 }
 
-/* PARTE IZQUIERDA */
 #parteIzquierda {
     position: fixed;
     left: -360px;
@@ -135,13 +128,11 @@ a img {
     border: 5px double #999999;
     border-radius: 10px;
     background-color: #d0eb6a;
-    /*transform: rotate(45deg) translate(-350px, 160px);*/
     transform: rotate(45deg);
     transition: all 0.2s linear;
 }
 
 #parteIzquierda:hover {
-    /*transform: none;*/
     transform: rotate(0deg);
     left: 0;
     top: 35px;
@@ -162,7 +153,6 @@ a img {
     margin-left: 300px;
 }
 
-/* RESUMEN */
 #parteIzquierda .resumen {
     border: 1px solid #222;
     padding: 0.25em 0.5em;
@@ -178,7 +168,6 @@ a img {
     margin-bottom: 0.4em;
 }
 
-/* NAV */
 #nav {
     list-style: none;
     margin: 1.5em 0 1em 0;
@@ -203,7 +192,6 @@ a img {
     background-color: #d0eb6a;
 }
 
-/* CONTENIDO */
 #contenido {
     margin: 45px 5em 310px;
     width: 600px;
@@ -229,7 +217,6 @@ a img {
     padding-top: 0;
 }
 
-/* USO */
 pre code {
     padding: 0;
     margin: 0;
@@ -252,7 +239,6 @@ code {
     padding: 0.3em 0.4em;
 }
 
-/* DESCARGAR */
 .download {
     background-color: #333;
     border: 1px solid #444;
