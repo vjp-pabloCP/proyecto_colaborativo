@@ -103,6 +103,27 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
     de imágenes de mayor definición.
       
 - **David Alexander Janampa**
+  [Comandos utilizados]
+
+    -git clone
+
+    -git branch
+
+    -git add .
+
+    -git status
+
+    -git commit -m 
+
+    -git commit --amend -m
+
+    -git push -u origin
+
+    He modificado el index ya creado por mis compañeros y le
+    he añadido texto. También he modificado el css y el javascript haciendo así un poco
+    de todo. Después he subido mis cambios al repositorio.
+    
+
 
 ---
 💡 *¡Gracias por visitar nuestro proyecto!*
