@@ -122,6 +122,10 @@ pull request y lo mergea con la rama principal, notificando con commits cada cam
     -git commit --amend -m
 
     -git push -u origin
+  
+    -git pull origin master
+  
+    
 
 ---
 💡 *¡Gracias por visitar nuestro proyecto!*
