@@ -402,3 +402,47 @@ a:hover {
     100% { transform: rotate(360deg); }
 }
 
+.dark-mode {
+    background-color: #585757;
+    color: #ffffff;
+  }
+  
+  .dark-mode a {
+    color: #b1db3b;
+  }
+  
+  .dark-mode button {
+    background-color: #333;
+    color: white;
+    border: 1px solid #ffffff;
+  }
+  
+  .dark-mode #nav {
+    background-color: #222;
+  }
+  
+  .dark-mode #nav a {
+    color: #ffffff;
+  }
+  
+  .dark-mode #nav li.active {
+    background-color: #555;
+  }
+  
+  .dark-mode #contenido {
+    background-color: #585757;
+    color: #ffffff;
+  }
+  
+  .dark-mode .resumen {
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .dark-mode pre {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+  }
+  
